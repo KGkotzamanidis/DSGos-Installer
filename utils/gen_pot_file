@@ -1,0 +1,2 @@
+#!/bin/sh
+python2 pygettext.py -a -d DSGos -p po -v DSGos.py DSGos/*.py DSGos/*/*.py

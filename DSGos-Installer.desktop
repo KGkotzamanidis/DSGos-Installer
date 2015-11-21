@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Install DSGos Linux
+GenericName=Live Installer
+Comment=Install the operating system to disk
+Exec=sudo -E /usr/bin/DSGos -d -v -c /var/cache/pacman/pkg
+Icon=/usr/share/DSGos/data/images/antergos/antergos-icon.png
+Terminal=False
+Type=Application
+Categories=System;
