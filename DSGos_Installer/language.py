@@ -84,7 +84,7 @@ class Language(GtkBaseBox):
         """ Translates all ui elements """
         txt_bold = _("Notice: The DSGos-Installer is Alpha software.")
         # FIXME: Can't use an a html tag in the label. Causes an accessible GTK Assertion
-        txt = _("Cnchi is pre-release Alpha software that is under active development. "
+        txt = _("DSGos-Installer is pre-release Alpha software that is under active development. "
                 "It does not yet properly handle RAID, btrfs subvolumes, or other advanced "
                 "setups. Please proceed with caution as data loss is possible!\n\n"
                 "If you find any bugs, please report them at {0}")

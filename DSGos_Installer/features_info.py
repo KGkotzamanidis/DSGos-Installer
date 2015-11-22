@@ -89,6 +89,8 @@ DESCRIPTIONS = {
     'smb': _("SMB provides shared access to files and printers.")}
 
 TOOLTIPS = {
+    'electronic': _(""),
+    'computer': _(""),
     'aur': _("Use yaourt to install AUR packages.\n"
              "The AUR was created to organize and share new packages\n"
              "from the community and to help expedite popular packages'\n"
