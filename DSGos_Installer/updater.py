@@ -39,8 +39,8 @@ import uuid
 import misc.misc as misc
 import requests
 
-_update_info_url = "https://raw.github.com/DSGos/DSGos_Installer/master/update.info"
-_master_zip_url = "https://github.com/DSGos/DSGos_Installer/archive/master.zip"
+_update_info_url = "https://raw.githubusercontent.com/KGkotzamanidis/DSGos-Installer/master/update.info"
+_master_zip_url = "https://github.com/KGkotzamanidis/DSGos-Installer/archive/master.zip"
 _update_info = "/usr/share/DSGos_Installer/update.info"
 
 _src_dir = os.path.dirname(__file__) or '.'
