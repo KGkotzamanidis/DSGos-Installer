@@ -1,22 +1,22 @@
 #!/bin/sh
 
 # WARNING:
-# This script is a helper that the developers use to call DSGos (testing purposes only)
+# This script is a helper that the developers use to call DSGos_Installer (testing purposes only)
 # Please, do not use if your intention is to do a "normal" installation
 
-sudo rm -R /usr/share/DSGos
-DSGos_dir=`pwd`
-sudo ln -s $DSGos_dir /usr/share/DSGos
+sudo rm -R /usr/share/DSGos_Installer
+DSGos_Installer_dir=`pwd`
+sudo ln -s $DSGos_Installer_dir /usr/share/DSGos_Installer
 
 _PYTHON="/usr/bin/python"
 _PYTHON_OPTIONS="-Wall"
 _CACHE="/var/cache/pacman/pkg"
-_XML="/usr/share/DSGos/data/packages.xml"
-_DSGos_OPTIONS="-d -v -s bugsnag"
+_XML="/usr/share/DSGos_Installer/data/packages.xml"
+_DSGos_Installer_OPTIONS="-d -v -s bugsnag"
 
 if [ -f /usr/bin/python3 ]; then
     _PYTHON="/usr/bin/python3"
 fi
 
-sudo -E $_PYTHON $_PYTHON_OPTIONS DSGos/DSGos.py $_DSGos_OPTIONS -c $_CACHE -p $_XML $1 $2 $3 $4
+sudo -E $_PYTHON $_PYTHON_OPTIONS DSGos_Installer/DSGos_Installer.py $_DSGos_Installer_OPTIONS -c $_CACHE -p $_XML $1 $2 $3 $4
 

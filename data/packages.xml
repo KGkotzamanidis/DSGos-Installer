@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DSGos>
+<!-- This file is supposed to be in the DSGos server -->
+<!-- Please add new packages alphabetically -->
+<DSGos_Installer>
   <editions>
     <edition name="common" description="Packages common to all DE and base">
       <packages>
         <pkgname>acpid</pkgname>
         <pkgname>alsa-utils</pkgname>
+        <pkgname>DSGos-keyring</pkgname>
+        <pkgname>DSGos-mirrorlist</pkgname>
         <pkgname>b43-fwcutter</pkgname>
         <pkgname>base</pkgname> <!-- Group -->
         <pkgname>base-devel</pkgname> <!-- Group -->
@@ -37,6 +41,8 @@
     <edition name="graphic" description="Common to all graphic desktops">
       <packages>
         <pkgname>accountsservice</pkgname>
+        <pkgname>DSGos-wallpapers</pkgname>
+        <pkgname>DSGos-welcome</pkgname>
         <pkgname>chromium</pkgname>
         <pkgname>chromium-pepper-flash</pkgname>
         <pkgname>ffmpegthumbnailer</pkgname>
@@ -92,6 +98,7 @@
 
     <edition name="Gnome" description="Gnome Desktop">
       <packages>
+        <pkgname>DSGos-gnome-defaults-list</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -145,6 +152,7 @@
 
     <edition name="Cinnamon" description="Cinnamon desktop">
       <packages>
+        <pkgname>DSGos-gnome-defaults-list</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -281,6 +289,7 @@
 
     <edition name="Enlightenment" description="Enlightenment Desktop">
       <packages>
+        <pkgname>DSGos-enlightenment-setup</pkgname>
         <pkgname>enlightenment</pkgname>
         <pkgname nm='true' name='NetworkManager' conflicts="networkmanager">connman</pkgname>
         <pkgname>econnman</pkgname>
@@ -296,6 +305,7 @@
 
     <edition name="openbox" description="Openbox Window Manager">
       <packages>
+        <pkgname>DSGos-openbox-setup</pkgname>
         <pkgname>arandr</pkgname>
         <pkgname>conky</pkgname>
         <pkgname>cdrkit</pkgname>
@@ -350,6 +360,7 @@
 
     <edition name="KDE4" description="KDE 4 Desktop">
       <packages>
+        <pkgname>DSGos-kde-setup</pkgname>
         <pkgname>ark</pkgname>
         <pkgname>aspell-en</pkgname>
         <pkgname>breeze-kde4</pkgname>
@@ -405,6 +416,7 @@
 
     <edition name="plasma5" description="KDE Desktop - Plasma 5">
         <packages>
+          <pkgname>DSGos-kde-setup</pkgname>
           <pkgname>ark</pkgname>
           <pkgname>aspell-en</pkgname>
           <pkgname>breeze-kde4</pkgname>
@@ -558,7 +570,8 @@
     <bootloader name="grub2">
       <pkgname>grub</pkgname>
       <pkgname>os-prober</pkgname>
+      <pkgname>grub2-theme-DSGos</pkgname>
     </bootloader>
   </bootloaders>
 
-</DSGos>
+</DSGos_Installer>

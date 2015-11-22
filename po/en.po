@@ -4,7 +4,7 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Antergos\n"
+"Project-Id-Version: DSGos\n"
 "POT-Creation-Date: 2014-02-26 17:09+PET\n"
 "PO-Revision-Date: 2014-02-26 22:10+0000\n"
 "Last-Translator: faidoc <faidoc@gmail.com>\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: DSGos.py:115
+#: DSGos_Installer.py:115
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
 msgstr "This installer must be run with administrative privileges, and cannot continue without them."
 
-#: DSGos.py:124
+#: DSGos_Installer.py:124
 msgid ""
 "You cannot run two instances of this installer.\n"
 "\n"
@@ -31,67 +31,67 @@ msgid ""
 "and run this installer again."
 msgstr "You cannot run two instances of this installer.\n\nIf you are sure that the installer is not already running\nyou can manually delete the file %s\nand run this installer again."
 
-#: DSGos.py:132
-msgid "DSGos installer version %s"
-msgstr "DSGos installer version %s"
+#: DSGos_Installer.py:132
+msgid "DSGos_Installer installer version %s"
+msgstr "DSGos_Installer installer version %s"
 
-#: DSGos.py:207
+#: DSGos_Installer.py:207
 msgid "Using Aria2 to download packages - EXPERIMENTAL"
 msgstr "Using Aria2 to download packages - EXPERIMENTAL"
 
-#: DSGos.py:249
-msgid "DSGos - Antergos Installer"
-msgstr "DSGos - Antergos Installer"
+#: DSGos_Installer.py:249
+msgid "DSGos_Installer - DSGos Installer"
+msgstr "DSGos_Installer - DSGos Installer"
 
-#: DSGos.py:284
-msgid "Antergos Installer"
-msgstr "Antergos Installer"
+#: DSGos_Installer.py:284
+msgid "DSGos Installer"
+msgstr "DSGos Installer"
 
-#: DSGos.py:309
+#: DSGos_Installer.py:309
 msgid "Quiting installer..."
 msgstr "Quiting installer..."
 
-#: DSGos.py:428
-msgid "Use aria2 to download Antergos packages (EXPERIMENTAL)"
-msgstr "Use aria2 to download Antergos packages (EXPERIMENTAL)"
+#: DSGos_Installer.py:428
+msgid "Use aria2 to download DSGos packages (EXPERIMENTAL)"
+msgstr "Use aria2 to download DSGos packages (EXPERIMENTAL)"
 
-#: DSGos.py:429
+#: DSGos_Installer.py:429
 msgid ""
-"Use pre-downloaded xz packages (DSGos will download them anyway if a new "
+"Use pre-downloaded xz packages (DSGos_Installer will download them anyway if a new "
 "version is found)"
-msgstr "Use pre-downloaded xz packages (DSGos will download them anyway if a new version is found)"
+msgstr "Use pre-downloaded xz packages (DSGos_Installer will download them anyway if a new version is found)"
 
-#: DSGos.py:430
+#: DSGos_Installer.py:430
 msgid ""
-"As --cache but before installing DSGos copies all xz packages to destination"
-msgstr "As --cache but before installing DSGos copies all xz packages to destination"
+"As --cache but before installing DSGos_Installer copies all xz packages to destination"
+msgstr "As --cache but before installing DSGos_Installer copies all xz packages to destination"
 
-#: DSGos.py:431
-msgid "Sets DSGos log level to 'debug'"
-msgstr "Sets DSGos log level to 'debug'"
+#: DSGos_Installer.py:431
+msgid "Sets DSGos_Installer log level to 'debug'"
+msgstr "Sets DSGos_Installer log level to 'debug'"
 
-#: DSGos.py:432
-msgid "Update DSGos to the latest version (-uu will force the update)"
-msgstr "Update DSGos to the latest version (-uu will force the update)"
+#: DSGos_Installer.py:432
+msgid "Update DSGos_Installer to the latest version (-uu will force the update)"
+msgstr "Update DSGos_Installer to the latest version (-uu will force the update)"
 
-#: DSGos.py:433
+#: DSGos_Installer.py:433
 msgid ""
 "Install the packages referenced by a local xml instead of the default ones"
 msgstr "Install the packages referenced by a local xml instead of the default ones"
 
-#: DSGos.py:434
+#: DSGos_Installer.py:434
 msgid "Do not perform any changes (useful for developers)"
 msgstr "Do not perform any changes (useful for developers)"
 
-#: DSGos.py:435
+#: DSGos_Installer.py:435
 msgid "Show logging messages to stdout"
 msgstr "Show logging messages to stdout"
 
-#: DSGos.py:436
-msgid "Disables the tryit option (useful if DSGos is not run from a liveCD)"
-msgstr "Disables the tryit option (useful if DSGos is not run from a liveCD)"
+#: DSGos_Installer.py:436
+msgid "Disables the tryit option (useful if DSGos_Installer is not run from a liveCD)"
+msgstr "Disables the tryit option (useful if DSGos_Installer is not run from a liveCD)"
 
-#: DSGos.py:437
+#: DSGos_Installer.py:437
 msgid "Show options in development (DO NOT USE THIS!)"
 msgstr "Show options in development (DO NOT USE THIS!)"
 
@@ -171,15 +171,15 @@ msgid "Choose Your Desktop"
 msgstr "Choose Your Desktop"
 
 #: src/desktop.py:132
-msgid "DSGos will install DSGos with the '%s' desktop"
-msgstr "DSGos will install DSGos with the '%s' desktop"
+msgid "DSGos_Installer will install DSGos with the '%s' desktop"
+msgstr "DSGos_Installer will install DSGos with the '%s' desktop"
 
 #: src/desktop_environments.py:64
 msgid ""
 "Gnome 3 is an easy and elegant way to use your computer. It features the "
 "Activities Overview which is an easy way to access all your basic tasks. "
-"GNOME 3 is the default desktop in Antergos."
-msgstr "Gnome 3 is an easy and elegant way to use your computer. It features the Activities Overview which is an easy way to access all your basic tasks. GNOME 3 is the default desktop in Antergos."
+"GNOME 3 is the default desktop in DSGos."
+msgstr "Gnome 3 is an easy and elegant way to use your computer. It features the Activities Overview which is an easy way to access all your basic tasks. GNOME 3 is the default desktop in DSGos."
 
 #: src/desktop_environments.py:69
 msgid ""
@@ -238,8 +238,8 @@ msgstr "Razor-qt is an advanced, easy-to-use, and fast desktop environment based
 msgid ""
 "This option will install DSGos as command-line only system, without any "
 "type of graphical interface. After the installation you can customize "
-"Antergos by installing packages with the command-line package manager."
-msgstr "This option will install DSGos as command-line only system, without any type of graphical interface. After the installation you can customize Antergos by installing packages with the command-line package manager."
+"DSGos by installing packages with the command-line package manager."
+msgstr "This option will install DSGos as command-line only system, without any type of graphical interface. After the installation you can customize DSGos by installing packages with the command-line package manager."
 
 #: src/desktop_environments.py:106
 msgid ""
@@ -433,8 +433,8 @@ msgid ""
 "The Arch User Repository is a collection of user-submitted PKGBUILDs\n"
 "that supplement software available from the official repositories.\n"
 "\n"
-"The AUR is community driven and NOT supported by Arch or Antergos.\n"
-msgstr "The Arch User Repository is a collection of user-submitted PKGBUILDs\nthat supplement software available from the official repositories.\n\nThe AUR is community driven and NOT supported by Arch or Antergos.\n"
+"The AUR is community driven and NOT supported by Arch or DSGos.\n"
+msgstr "The Arch User Repository is a collection of user-submitted PKGBUILDs\nthat supplement software available from the official repositories.\n\nThe AUR is community driven and NOT supported by Arch or DSGos.\n"
 
 #: src/features.py:312
 msgid "Uncomplicated Firewall will be installed with these rules:"
@@ -638,8 +638,8 @@ msgid ""
 "\n"
 "The GPT partition also creates a protective MBR partition to stop unsupported tools from modifying it. You may need to set a bootable flag on this protective MBR partition if yoursystem doesnt boot successfully after installation.\n"
 "\n"
-"DSGos will create the BIOS Boot Partition for you."
-msgstr "GRUB requires a BIOS Boot Partition (2 MiB, no filesystem, EF02 type code in gdisk or bios_grub flag in GNU Parted) in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n\nFor a BIOS-GPT configuration, create a 1007 KiB partition at the beginning of the disk with no filesystem. That will allow for the next partition on the disk to be correctly aligned at 1024 KiB. If needed, the partition can also be located somewhere else on the disk, but it should be within the first 2 TiB region. Set the partition type to ef02.\n\nThe GPT partition also creates a protective MBR partition to stop unsupported tools from modifying it. You may need to set a bootable flag on this protective MBR partition if yoursystem doesnt boot successfully after installation.\n\nDSGos will create the BIOS Boot Partition for you."
+"DSGos_Installer will create the BIOS Boot Partition for you."
+msgstr "GRUB requires a BIOS Boot Partition (2 MiB, no filesystem, EF02 type code in gdisk or bios_grub flag in GNU Parted) in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n\nFor a BIOS-GPT configuration, create a 1007 KiB partition at the beginning of the disk with no filesystem. That will allow for the next partition on the disk to be correctly aligned at 1024 KiB. If needed, the partition can also be located somewhere else on the disk, but it should be within the first 2 TiB region. Set the partition type to ef02.\n\nThe GPT partition also creates a protective MBR partition to stop unsupported tools from modifying it. You may need to set a bootable flag on this protective MBR partition if yoursystem doesnt boot successfully after installation.\n\nDSGos_Installer will create the BIOS Boot Partition for you."
 
 #: src/installation/advanced.py:1539
 msgid ""
@@ -700,28 +700,28 @@ msgid "Couldn't format partition '%s' with label '%s' as '%s'"
 msgstr "Couldn't format partition '%s' with label '%s' as '%s'"
 
 #: src/installation/advanced.py:1818
-msgid "DSGos will not install any boot loader"
-msgstr "DSGos will not install any boot loader"
+msgid "DSGos_Installer will not install any boot loader"
+msgstr "DSGos_Installer will not install any boot loader"
 
 #: src/installation/advanced.py:1827
-msgid "Antergos will install the bootloader of type %s in %s"
-msgstr "Antergos will install the bootloader of type %s in %s"
+msgid "DSGos will install the bootloader of type %s in %s"
+msgstr "DSGos will install the bootloader of type %s in %s"
 
 #: src/installation/advanced.py:1841 src/installation/automatic.py:241
-msgid "Testing mode. DSGos will not change anything!"
-msgstr "Testing mode. DSGos will not change anything!"
+msgid "Testing mode. DSGos_Installer will not change anything!"
+msgstr "Testing mode. DSGos_Installer will not change anything!"
 
 #: src/installation/alongside.py:111
 msgid "Can't load %s css"
 msgstr "Can't load %s css"
 
 #: src/installation/alongside.py:138
-msgid "Select the OS you would like Antergos installed next to."
-msgstr "Select the OS you would like Antergos installed next to."
+msgid "Select the OS you would like DSGos installed next to."
+msgstr "Select the OS you would like DSGos installed next to."
 
 #: src/installation/alongside.py:143
-msgid "Antergos Alongside Installation"
-msgstr "Antergos Alongside Installation"
+msgid "DSGos Alongside Installation"
+msgstr "DSGos Alongside Installation"
 
 #: src/installation/alongside.py:174
 msgid "Detected OS"
@@ -775,32 +775,32 @@ msgid ""
 msgstr "This will setup you /home directory in a different partition or volume."
 
 #: src/installation/ask.py:152 src/installation/ask.py:154
-msgid "install DSGos alongside %s"
-msgstr "install DSGos alongside %s"
+msgid "Install DSGos alongside %s"
+msgstr "Install DSGos alongside %s"
 
 #: src/installation/ask.py:161
-msgid "Choose exactly where Antergos should be installed. (advanced)"
-msgstr "Choose exactly where Antergos should be installed. (advanced)"
+msgid "Choose exactly where DSGos should be installed. (advanced)"
+msgstr "Choose exactly where DSGos should be installed. (advanced)"
 
 #: src/installation/ask.py:164
 msgid "Edit partition table and choose mount points."
 msgstr "Edit partition table and choose mount points."
 
 #: src/installation/ask.py:190
-msgid "Antergos installation will be encrypted using LUKS"
-msgstr "Antergos installation will be encrypted using LUKS"
+msgid "DSGos installation will be encrypted using LUKS"
+msgstr "DSGos installation will be encrypted using LUKS"
 
 #: src/installation/ask.py:193
-msgid "Antergos will be installed using LVM volumes"
-msgstr "Antergos will be installed using LVM volumes"
+msgid "DSGos will be installed using LVM volumes"
+msgstr "DSGos will be installed using LVM volumes"
 
 #: src/installation/ask.py:195
-msgid "Antergos will be installed using a separate /home volume."
-msgstr "Antergos will be installed using a separate /home volume."
+msgid "DSGos will be installed using a separate /home volume."
+msgstr "DSGos will be installed using a separate /home volume."
 
 #: src/installation/ask.py:197
-msgid "Antergos will be installed using a separate /home partition."
-msgstr "Antergos will be installed using a separate /home partition."
+msgid "DSGos will be installed using a separate /home partition."
+msgstr "DSGos will be installed using a separate /home partition."
 
 #: src/installation/auto_partition.py:73 src/installation/auto_partition.py:82
 msgid "Unmounting %s"
@@ -827,8 +827,8 @@ msgid "Can't create file system %s"
 msgstr "Can't create file system %s"
 
 #: src/installation/auto_partition.py:324
-msgid "DSGos will setup LUKS on device %s"
-msgstr "DSGos will setup LUKS on device %s"
+msgid "DSGos_Installer will setup LUKS on device %s"
+msgstr "DSGos_Installer will setup LUKS on device %s"
 
 #: src/installation/auto_partition.py:381
 msgid ""
@@ -886,20 +886,20 @@ msgid ""
 msgstr "Do you really want to proceed and delete all your content on your hard drive?\n\n%s"
 
 #: src/installation/automatic.py:211
-msgid "DSGos will install DSGos on %s"
-msgstr "DSGos will install DSGos on %s"
+msgid "DSGos_Installer will install DSGos on %s"
+msgstr "DSGos_Installer will install DSGos on %s"
 
 #: src/installation/automatic.py:222
-msgid "Antergos will install the %s bootloader on %s"
-msgstr "Antergos will install the %s bootloader on %s"
+msgid "DSGos will install the %s bootloader on %s"
+msgstr "DSGos will install the %s bootloader on %s"
 
 #: src/installation/process.py:92
 msgid "Installing using the '%s' method. Please wait..."
 msgstr "Installing using the '%s' method. Please wait..."
 
 #: src/installation/process.py:165
-msgid "Can't create %s directory, DSGos can't continue"
-msgstr "Can't create %s directory, DSGos can't continue"
+msgid "Can't create %s directory, DSGos_Installer can't continue"
+msgstr "Can't create %s directory, DSGos_Installer can't continue"
 
 #: src/installation/process.py:185
 msgid "Creating partitions and their filesystems in %s"
@@ -985,8 +985,8 @@ msgid "Installation finished"
 msgstr "Installation finished"
 
 #: src/installation/process.py:398
-msgid "Can't copy DSGos log to %s"
-msgstr "Can't copy DSGos log to %s"
+msgid "Can't copy DSGos_Installer log to %s"
+msgstr "Can't copy DSGos_Installer log to %s"
 
 #: src/installation/process.py:416
 msgid "Creating a temporary pacman.conf for %s architecture"
@@ -1057,8 +1057,8 @@ msgid "Package group '%s' has %d packages"
 msgstr "Package group '%s' has %d packages"
 
 #: src/installation/process.py:763
-msgid "DSGos will install a total of %d packages."
-msgstr "DSGos will install a total of %d packages."
+msgid "DSGos_Installer will install a total of %d packages."
+msgstr "DSGos_Installer will install a total of %d packages."
 
 #: src/installation/process.py:775
 msgid "Downloading packages from '%s' group..."
@@ -1066,9 +1066,9 @@ msgstr "Downloading packages from '%s' group..."
 
 #: src/installation/process.py:788
 msgid ""
-"Can't download group '%s'. DSGos will continue and try again this download "
+"Can't download group '%s'. DSGos_Installer will continue and try again this download "
 "later."
-msgstr "Can't download group '%s'. DSGos will continue and try again this download later."
+msgstr "Can't download group '%s'. DSGos_Installer will continue and try again this download later."
 
 #: src/installation/process.py:806
 msgid "Installing packages from '%s' group..."
@@ -1076,9 +1076,9 @@ msgstr "Installing packages from '%s' group..."
 
 #: src/installation/process.py:819
 msgid ""
-"Can't install group '%s'. DSGos will continue but this group of packages "
+"Can't install group '%s'. DSGos_Installer will continue but this group of packages "
 "won't be installed."
-msgstr "Can't install group '%s'. DSGos will continue but this group of packages won't be installed."
+msgstr "Can't install group '%s'. DSGos_Installer will continue but this group of packages won't be installed."
 
 #: src/installation/process.py:838
 msgid "Special dirs already mounted."
@@ -1105,8 +1105,8 @@ msgid "Added to crypttab : %s"
 msgstr "Added to crypttab : %s"
 
 #: src/installation/process.py:999
-msgid "Added to fstab : /dev/mapper/cryptAntergosHome %s %s %s 0 %s"
-msgstr "Added to fstab : /dev/mapper/cryptAntergosHome %s %s %s 0 %s"
+msgid "Added to fstab : /dev/mapper/cryptDSGosHome %s %s %s 0 %s"
+msgstr "Added to fstab : /dev/mapper/cryptDSGosHome %s %s %s 0 %s"
 
 #: src/installation/process.py:1048
 msgid "Added to fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
@@ -1253,8 +1253,8 @@ msgid "fstab file generated."
 msgstr "fstab file generated."
 
 #: src/installation/process.py:1660
-msgid "DSGos will configure netctl using the %s profile"
-msgstr "DSGos will configure netctl using the %s profile"
+msgid "DSGos_Installer will configure netctl using the %s profile"
+msgstr "DSGos_Installer will configure netctl using the %s profile"
 
 #: src/installation/process.py:1667
 msgid "Can't copy network configuration profiles"
@@ -1317,8 +1317,8 @@ msgid "Configuring System Startup..."
 msgstr "Configuring System Startup..."
 
 #: src/installation/process.py:1818
-msgid "Call DSGos post-install script"
-msgstr "Call DSGos post-install script"
+msgid "Call DSGos_Installer post-install script"
+msgstr "Call DSGos_Installer post-install script"
 
 #: src/installation/process.py:1840
 msgid "Encrypting user home dir..."
@@ -1357,21 +1357,21 @@ msgid "keyboard_layout is %s"
 msgstr "keyboard_layout is %s"
 
 #: src/language.py:88
-msgid "Notice: The DSGos Installer is beta software."
-msgstr "Notice: The DSGos Installer is beta software."
+msgid "Notice: The DSGos_Installer Installer is beta software."
+msgstr "Notice: The DSGos_Installer Installer is beta software."
 
 #: src/language.py:89
 msgid ""
-"DSGos is pre-release beta software that is under active development.\n"
+"DSGos_Installer is pre-release beta software that is under active development.\n"
 "It does not yet properly handle RAID, btrfs subvolumes, or other advanced\n"
 "setups. Please proceed with caution as data loss is possible!\n"
 "\n"
-"If you find any bugs, please report them at <a href='http://bugs.antergos.com'>http://bugs.antergos.com</a>"
-msgstr "DSGos is pre-release beta software that is under active development.\nIt does not yet properly handle RAID, btrfs subvolumes, or other advanced\nsetups. Please proceed with caution as data loss is possible!\n\nIf you find any bugs, please report them at <a href='http://bugs.antergos.com'>http://bugs.antergos.com</a>"
+"If you find any bugs, please report them at <a href='http://bugs.DSGos.com'>http://bugs.DSGos.com</a>"
+msgstr "DSGos_Installer is pre-release beta software that is under active development.\nIt does not yet properly handle RAID, btrfs subvolumes, or other advanced\nsetups. Please proceed with caution as data loss is possible!\n\nIf you find any bugs, please report them at <a href='http://bugs.DSGos.com'>http://bugs.DSGos.com</a>"
 
 #: src/language.py:97 src/welcome.py:100
-msgid "Welcome to Antergos!"
-msgstr "Welcome to Antergos!"
+msgid "Welcome to DSGos!"
+msgstr "Welcome to DSGos!"
 
 #: src/language.py:130
 msgid "Can't find translation file for the %s language"
@@ -1483,8 +1483,8 @@ msgstr "Unrecognised disk label in device %s."
 #: src/parted3/partition_module.py:113
 msgid ""
 "Exception: %s.\n"
-"For more information take a look at /tmp/DSGos.log"
-msgstr "Exception: %s.\nFor more information take a look at /tmp/DSGos.log"
+"For more information take a look at /tmp/DSGos_Installer.log"
+msgstr "Exception: %s.\nFor more information take a look at /tmp/DSGos_Installer.log"
 
 #: src/parted3/partition_module.py:180
 msgid "Can't delete partition %s"
@@ -1535,28 +1535,28 @@ msgid "Couldn't execute auto mirror selection"
 msgstr "Couldn't execute auto mirror selection"
 
 #: src/show_message.py:51
-msgid "Antergos Installer - Error"
-msgstr "Antergos Installer - Error"
+msgid "DSGos Installer - Error"
+msgstr "DSGos Installer - Error"
 
 #: src/show_message.py:62
-msgid "Antergos Installer - Warning"
-msgstr "Antergos Installer - Warning"
+msgid "DSGos Installer - Warning"
+msgstr "DSGos Installer - Warning"
 
 #: src/show_message.py:73
-msgid "Antergos Installer - Information"
-msgstr "Antergos Installer - Information"
+msgid "DSGos Installer - Information"
+msgstr "DSGos Installer - Information"
 
 #: src/show_message.py:83
-msgid "Antergos Installer - Confirmation"
-msgstr "Antergos Installer - Confirmation"
+msgid "DSGos Installer - Confirmation"
+msgstr "DSGos Installer - Confirmation"
 
 #: src/slides.py:94
 msgid "Please wait..."
 msgstr "Please wait..."
 
 #: src/slides.py:96
-msgid "Installing Antergos..."
-msgstr "Installing Antergos..."
+msgid "Installing DSGos..."
+msgstr "Installing DSGos..."
 
 #: src/slides.py:194
 msgid ""
@@ -1705,7 +1705,7 @@ msgstr "Create Your User Account"
 
 #: src/user_info.py:192
 msgid ""
-"Antergos will use eCryptfs to encrypt your home directory.\n"
+"DSGos will use eCryptfs to encrypt your home directory.\n"
 "Unfortunately, eCryptfs does not handle sparse files very well.\n"
 "\n"
 "Don't worry though, for most intents and purposes this deficiency does not pose a problem.\n"
@@ -1717,7 +1717,7 @@ msgid ""
 "Review https://wiki.archlinux.org/index.php/ECryptfs for more detailed information.\n"
 "\n"
 "Are you sure you want to encrypt your home directory?\n"
-msgstr "Antergos will use eCryptfs to encrypt your home directory.\nUnfortunately, eCryptfs does not handle sparse files very well.\n\nDon't worry though, for most intents and purposes this deficiency does not pose a problem.\n\nOne popular but inadvisable application of eCryptfs is to encrypt a BitTorrent download locationw as this often requires eCryptfs to handle sparse files of 10 GB or more and can lead to intense disk starvation.\n\nA simple workaround is to place sparse files in an unencrypted Public directory.\n\nReview https://wiki.archlinux.org/index.php/ECryptfs for more detailed information.\n\nAre you sure you want to encrypt your home directory?\n"
+msgstr "DSGos will use eCryptfs to encrypt your home directory.\nUnfortunately, eCryptfs does not handle sparse files very well.\n\nDon't worry though, for most intents and purposes this deficiency does not pose a problem.\n\nOne popular but inadvisable application of eCryptfs is to encrypt a BitTorrent download locationw as this often requires eCryptfs to handle sparse files of 10 GB or more and can lead to intense disk starvation.\n\nA simple workaround is to place sparse files in an unencrypted Public directory.\n\nReview https://wiki.archlinux.org/index.php/ECryptfs for more detailed information.\n\nAre you sure you want to encrypt your home directory?\n"
 
 #: src/user_info.py:267
 msgid "Invalid characters entered"
@@ -1733,9 +1733,9 @@ msgstr "Too many characters"
 
 #: src/welcome.py:85
 msgid ""
-"You can try Antergos without making any changes to your system by selecting 'Try It'.\n"
+"You can try DSGos without making any changes to your system by selecting 'Try It'.\n"
 "When you are ready to install DSGos simply choose which installer you prefer."
-msgstr "You can try Antergos without making any changes to your system by selecting 'Try It'.\nWhen you are ready to install DSGos simply choose which installer you prefer."
+msgstr "You can try DSGos without making any changes to your system by selecting 'Try It'.\nWhen you are ready to install DSGos simply choose which installer you prefer."
 
 #: src/welcome.py:90
 msgid "Try It"

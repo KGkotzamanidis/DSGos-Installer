@@ -1,18 +1,19 @@
-# DSGos
+# DSGos_Installer
 **Graphical Installer for DSGos Linux**
 
 ## Usage:
 
 ```
 lang=sh
-sudo -E DSGos.py
+sudo -E DSGos_Installer.py
 ```
 
 To create logs to help debug problems:
 ```
 lang=sh
-sudo -E DSGos.py -dv
+sudo -E DSGos_Installer.py -dv
 ```
+
 ## Dependencies
 
  - gtk3
@@ -24,10 +25,10 @@ sudo -E DSGos.py -dv
  - python-requests
  - pyparted (parted, dosfstools, mtools, ntfs-3g, ntfsprogs)
  - pyalpm (alpm)
- - libtimezonemap (needed by DSGos 0.6.x and older versions)
+ - libtimezonemap (needed by DSGos_Installer 0.6.x and older versions)
  - webkit2gtk
- - hdparm (needed by DSGos 0.8.35 and older versions)
- - hwinfo (needed by DSGos 0.6.x and older versions)
+ - hdparm (needed by DSGos_Installer 0.8.35 and older versions)
+ - hwinfo (needed by DSGos_Installer 0.6.x and older versions)
  - upower
  - encfs, pam_encfs
  - iso-codes
@@ -45,3 +46,6 @@ sudo -E DSGos.py -dv
  - ttf-myanmar3
  - ttf-thaana-fonts
  - ttf-tlwg
+
+ # Original Project
+ https://github.com/Antergos/Cnchi

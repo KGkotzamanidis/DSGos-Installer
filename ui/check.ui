@@ -67,7 +67,7 @@
         <child>
           <object class="StateBox" id="updated">
             <property name="visible">True</property>
-            <property name="label">DSGos is up to date</property>
+            <property name="label">DSGos_Installer is up to date</property>
           </object>
           <packing>
             <property name="expand">True</property>

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/usr/bin/env python /usr/share/DSGos/DSGos/DSGos.py -d -v ${@}

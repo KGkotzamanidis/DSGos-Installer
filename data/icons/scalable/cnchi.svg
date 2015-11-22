@@ -15,8 +15,8 @@
    id="svg7571"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="DSGos.svg"
-   inkscape:export-filename="/home/twisted/MegaCloud/_ANTERGOS/_ICONS/DSGos/set/128x128/DSGos.png"
+   sodipodi:docname="DSGos_Installer.svg"
+   inkscape:export-filename="/home/twisted/MegaCloud/_DSGos/_ICONS/DSGos_Installer/set/128x128/DSGos_Installer.png"
    inkscape:export-xdpi="122.55319"
    inkscape:export-ydpi="122.55319">
   <defs
@@ -104,7 +104,7 @@
     <g
        inkscape:export-ydpi="89.99073"
        inkscape:export-xdpi="89.99073"
-       inkscape:export-filename="/home/twisted/MegaCloud/_ANTERGOS/_ICONS/DSGos/DSGos-icon-antergos.png"
+       inkscape:export-filename="/home/twisted/MegaCloud/_DSGos/_ICONS/DSGos_Installer/DSGos_Installer-icon-DSGos.png"
        transform="translate(-107.4625,884.20215)"
        id="g7553">
       <g
@@ -113,7 +113,7 @@
         <path
            inkscape:export-ydpi="149.93477"
            inkscape:export-xdpi="149.93477"
-           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/Antergos/antergos-triangle-modern.png"
+           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/DSGos/DSGos-triangle-modern.png"
            sodipodi:nodetypes="zczczcz"
            inkscape:connector-curvature="0"
            id="path7557"
@@ -127,14 +127,14 @@
            id="path7559"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="zczczcz"
-           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/Antergos/antergos-triangle-modern.png"
+           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/DSGos/DSGos-triangle-modern.png"
            inkscape:export-xdpi="149.93477"
            inkscape:export-ydpi="149.93477" />
         <g
            transform="matrix(1.2062355,0,0,1.2062355,-376.13142,-1010.241)"
            inkscape:export-ydpi="149.93477"
            inkscape:export-xdpi="149.93477"
-           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/Antergos/antergos-triangle-modern.png"
+           inkscape:export-filename="/home/twisted/MegaCloud/_CINNARCH/logo/DSGos/DSGos-triangle-modern.png"
            id="g7561">
           <path
              style="opacity:0.2;fill:#c8deff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter5006-0)"

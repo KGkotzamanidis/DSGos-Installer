@@ -4,11 +4,11 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Antergos\n"
+"Project-Id-Version: DSGos\n"
 "POT-Creation-Date: 2013-04-06 17:20+CEST\n"
 "PO-Revision-Date: 2013-04-06 15:21+0000\n"
-"Last-Translator: faidoc <alexfilgueira@antergos.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/antergos/language/pt_PT/)\n"
+"Last-Translator: faidoc <alexfilgueira@DSGos.com>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/DSGos/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: DSGos.py:92
+#: DSGos_Installer.py:92
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
 msgstr ""
 
-#: DSGos.py:98
+#: DSGos_Installer.py:98
 msgid ""
 "You cannot run two instances of this installer.\n"
 "\n"
@@ -31,8 +31,8 @@ msgid ""
 "and run this installer again."
 msgstr ""
 
-#: DSGos.py:186
-msgid "Antergos Installer"
+#: DSGos_Installer.py:186
+msgid "DSGos Installer"
 msgstr ""
 
 #: src/check.py:70
@@ -291,11 +291,11 @@ msgstr ""
 #: src/installation_ask.py:107
 msgid ""
 "You will be able to create/delete partitions, choose where to install "
-"Antergos and also choose additional mount points."
+"DSGos and also choose additional mount points."
 msgstr ""
 
 #: src/installation_automatic.py:73
-msgid "Antergos automatic installation mode"
+msgid "DSGos automatic installation mode"
 msgstr ""
 
 #: src/installation_automatic.py:77
@@ -318,7 +318,7 @@ msgid "You must inform about these two mount points to install DSGos"
 msgstr ""
 
 #: src/installation_easy.py:94
-msgid "Antergos easy installation mode"
+msgid "DSGos easy installation mode"
 msgstr ""
 
 #: src/installation_easy.py:118
@@ -403,11 +403,11 @@ msgid ""
 "merchantability, fitness for a particular purpose, or\n"
 "non-infringement.\n"
 "\n"
-"If you find any bug, please, visit <a href='http://bugs.antergos.com'>http://bugs.antergos.com</a>"
+"If you find any bug, please, visit <a href='http://bugs.DSGos.com'>http://bugs.DSGos.com</a>"
 msgstr ""
 
 #: src/language.py:95 src/welcome.py:100
-msgid "Welcome to Antergos!"
+msgid "Welcome to DSGos!"
 msgstr ""
 
 #: src/language.py:113
@@ -518,19 +518,19 @@ msgid "Couldn't execute auto mirroring selection"
 msgstr ""
 
 #: src/show_message.py:54
-msgid "Antergos Installer - Error"
+msgid "DSGos Installer - Error"
 msgstr ""
 
 #: src/show_message.py:65
-msgid "Antergos Installer - Warning"
+msgid "DSGos Installer - Warning"
 msgstr ""
 
 #: src/show_message.py:76
-msgid "Antergos Installer - Information"
+msgid "DSGos Installer - Information"
 msgstr ""
 
 #: src/show_message.py:86
-msgid "Antergos Installer - Question"
+msgid "DSGos Installer - Question"
 msgstr ""
 
 #: src/slides.py:80 src/slides.py:94
@@ -540,7 +540,7 @@ msgid ""
 msgstr ""
 
 #: src/slides.py:88
-msgid "Learn more about Antergos"
+msgid "Learn more about DSGos"
 msgstr ""
 
 #: src/slides.py:92
@@ -673,7 +673,7 @@ msgstr ""
 
 #: src/welcome.py:95
 msgid ""
-"You can try Antergos without modifying your hard drive, just click on 'Try it'.\n"
+"You can try DSGos without modifying your hard drive, just click on 'Try it'.\n"
 "If you want to install the system to your PC, use one of the two installer options."
 msgstr ""
 
