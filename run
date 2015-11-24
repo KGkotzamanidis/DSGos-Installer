@@ -4,14 +4,14 @@
 # This script is a helper that the developers use to call DSGos_Installer (testing purposes only)
 # Please, do not use if your intention is to do a "normal" installation
 
-sudo rm -R /usr/share/DSGos_Installer
+sudo rm -R /usr/share/DSGos-Installer
 DSGos_Installer_dir=`pwd`
-sudo ln -s $DSGos_Installer_dir /usr/share/DSGos_Installer
+sudo ln -s $DSGos_Installer_dir /usr/share/DSGos-Installer
 
 _PYTHON="/usr/bin/python"
 _PYTHON_OPTIONS="-Wall"
 _CACHE="/var/cache/pacman/pkg"
-_XML="/usr/share/DSGos_Installer/data/packages.xml"
+_XML="/usr/share/DSGos-Installer/data/packages.xml"
 _DSGos_Installer_OPTIONS="-d -v -s bugsnag"
 
 if [ -f /usr/bin/python3 ]; then
@@ -19,4 +19,3 @@ if [ -f /usr/bin/python3 ]; then
 fi
 
 sudo -E $_PYTHON $_PYTHON_OPTIONS DSGos_Installer/DSGos_Installer.py $_DSGos_Installer_OPTIONS -c $_CACHE -p $_XML $1 $2 $3 $4
-
