@@ -55,21 +55,21 @@ def _(message):
     return message
 
 TITLES = {
-    'electronic': _("Electronic Engineer Packages"),
-    'computer': _("Computer Engineer Packages"),
-    'aur': _("Arch User Repository (AUR) Support"),
-    'bluetooth': _("Bluetooth Support"),
-    'cups': _("Printing Support"),
-    'firefox': _("Firefox Web Browser"),
-    'firewall': _("Uncomplicated Firewall"),
-    'fonts': _("Extra Truetype Fonts"),
-    'games': _("Steam + PlayonLinux"),
-    'graphic_drivers': _("Graphic drivers (Proprietary)"),
-    'lamp': _("Apache (or Nginx) + Mariadb + PHP"),
-    'lts': _("Kernel (LTS version)"),
-    'office': _("LibreOffice"),
-    'smb': _("Windows sharing SMB"),
-    'visual': _("Visual Effects")}
+    '1.electronic': _("Electronic Engineer Packages"),
+    '2.computer': _("Computer Engineer Packages"),
+    '3.aur': _("Arch User Repository (AUR) Support"),
+    '4.bluetooth': _("Bluetooth Support"),
+    '5.cups': _("Printing Support"),
+    '6.firefox': _("Firefox Web Browser"),
+    '7.firewall': _("Uncomplicated Firewall"),
+    '8.fonts': _("Extra Truetype Fonts"),
+    '9.games': _("Steam + PlayonLinux"),
+    '10.graphic_drivers': _("Graphic drivers (Proprietary)"),
+    '11.lamp': _("Apache (or Nginx) + Mariadb + PHP"),
+    '12.lts': _("Kernel (LTS version)"),
+    '13.office': _("LibreOffice"),
+    '14.smb': _("Windows sharing SMB"),
+    '15.visual': _("Visual Effects")}
 
 DESCRIPTIONS = {
     'electronic': _("Install all required packages for an Electonic Engineer"),
