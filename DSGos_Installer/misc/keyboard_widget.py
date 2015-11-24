@@ -405,7 +405,7 @@ class KeyboardWidget(Gtk.DrawingArea):
             return
 
         cmd = [
-            "/usr/share/DSGos_Installer/scripts/ckbcomp",
+            "/usr/share/DSGos-Installer/scripts/ckbcomp",
             "-model",
             "pc106",
             "-layout",
