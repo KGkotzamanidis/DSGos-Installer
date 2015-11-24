@@ -1,0 +1,1 @@
+/home/lastwarrior/Github.io/DSGos-Installer/Generate/generate_update_info.py

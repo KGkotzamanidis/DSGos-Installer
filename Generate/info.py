@@ -1,0 +1,1 @@
+/home/lastwarrior/Github.io/DSGos-Installer/DSGos_Installer/info.py
